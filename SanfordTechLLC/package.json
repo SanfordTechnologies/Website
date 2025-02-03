@@ -1,0 +1,16 @@
+{
+  "name": "sanfordtechllc",
+  "version": "1.0.0",
+  "description": "A basic placeholder website for SanfordTech LLC, showcasing software development services.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "software",
+    "development",
+    "SanfordTechLLC"
+  ],
+  "author": "SanfordTech LLC",
+  "license": "MIT"
+}
