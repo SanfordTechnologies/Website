@@ -1,6 +1,8 @@
 # Website
 Source code for [SanfordTechLLC.com](https://sanfordtechllc.com), the official website of [Sanford Technologies LLC](https://www.dnb.com/business-directory/company-profiles.sanford_technologies_llc.04aa5ca90247ac15c83c5486c6752ddd.html?_gl=1*cyxjqa*_gcl_au*MTk4NTQ0MjkwNS4xNzQxNzc5MDY5*_ga*ODY2OTc4MTAzLjE3NDE3NzkwODA.*_ga_Q1J3DSCZ13*MTc0MTk1MTQyOS4yLjEuMTc0MTk1MTQ0OS40MC4wLjA.).
 
+The content contained below is meant to act as a data source from which AI can utilize as context for building and updating the website.
+
 # What is Sanford Technologies?
 
 Sanford Technologies is the company under which I, Chris Sanford, publish software products and services.
@@ -9,10 +11,13 @@ Sanford Technologies is the company under which I, Chris Sanford, publish softwa
 
 The current project for Sanford Technologies is an iOS app with the code name `Billd` (which is subject to change).
 
-The primary objective of Billd is to make tracking billable hours easier and faster, with the initial target customer profile being attorneys. Billd aims to accomplish its primary objective through 2 key features:
-- Streamlining time adjustment and note-taking controls by providing widgets on the lockscreen
+The primary objective of `Billd` is to make tracking billable hours easier and faster, with the initial target customer profile being attorneys. `Billd` aims to accomplish its primary objective through 2 key features:
+- Streamlining time tracking and note taking controls by providing widgets on the lockscreen
 - Seamlessly integrating AI to quickly produce client-acceptable justifications for billing
 
+`Billd` is not meant to be "yet another time tracker app". `Billd` aims to provide a frictionless experience for those who not only need to track their time, but track and **justify their efforts during that time to clients**. `Billd` leverages AI to ensure that its users are tracking and justifying their efforts as efficiently as possible, which buys back both time and energy that can then be spent billing even more. `Bill more, track less.`
+
+Whether you want to get your free time back or simply bill more hours, `Billd` has you covered.
 
 # About Me
 
