@@ -13,9 +13,9 @@ The current project for Sanford Technologies is an iOS app with the code name `B
 
 The primary objective of `Billd` is to make tracking billable hours easier and faster, with the initial target customer profile being attorneys. `Billd` aims to accomplish its primary objective through 2 key features:
 - Streamlining time tracking and note taking controls by providing widgets on the lockscreen
-- Seamlessly integrating AI to quickly produce client-acceptable justifications for billing
+- Seamlessly integrating AI to quickly produce justifications for billing that clients will understand and accept
 
-`Billd` is not meant to be "yet another time tracker app". `Billd` aims to provide a frictionless experience for those who not only need to track their time, but track and **justify their efforts during that time to clients**. `Billd` leverages AI to ensure that its users are tracking and justifying their efforts as efficiently as possible, which buys back both time and energy that can then be spent billing even more. `Bill more, track less.`
+`Billd` is not meant to be "yet another time tracker app". `Billd` aims to provide a frictionless experience for those who not only need to track their time, but track and **justify their efforts during that time to clients**. `Billd` leverages AI to ensure that its users are tracking and justifying their efforts as efficiently as possible, which saves both time and energy. `Bill more, track less.`
 
 Whether you want to get your free time back or simply bill more hours, `Billd` has you covered.
 
