@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 export default function Navbar() {
-  const basePath = process.env.NODE_ENV === 'production' ? '/website' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/Website' : '';
   
   return (
     <nav className="bg-white shadow-md">
