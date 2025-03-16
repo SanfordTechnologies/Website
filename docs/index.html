@@ -5,21 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanford Technologies LLC</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Sanford Technologies LLC - Official website of Chris Sanford's software development company">
 </head>
 <body>
     <header>
-        <h1>Welcome to Sanford Technologies LLC</h1>
-        <p>Your partner in innovative software solutions.</p>
+        <div class="container">
+            <h1>Sanford Technologies LLC</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#chris">About Me</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>At Sanford Technologies LLC, we specialize in building custom software tailored to meet your business needs.</p>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Software Products & Services</h2>
+                <p>Welcome to the official website of Sanford Technologies LLC</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>What is Sanford Technologies?</h2>
+                <p>Sanford Technologies is the company under which I, Chris Sanford, publish software products and services.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <h3>Billd</h3>
+                    <p class="note">Code name, subject to change</p>
+                    <p>The primary objective of <strong>Billd</strong> is to make tracking billable hours easier and faster, with the initial target customer profile being attorneys.</p>
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Streamlining time tracking and note taking controls by providing quickly accessible widgets on the lockscreen</li>
+                        <li>Seamlessly integrating AI to quickly produce justifications for billing that clients will understand and accept</li>
+                    </ul>
+                    <p><strong>Billd</strong> is not meant to be "yet another time tracker app". <strong>Billd</strong> aims to provide a frictionless experience for those who not only need to track their time, but track and <strong>justify their efforts during that time to clients</strong>. <strong>Billd</strong> leverages AI to ensure that its users are tracking and justifying their efforts as efficiently as possible, which saves both time and energy. <strong>Bill more, track less.</strong></p>
+                    <p>Whether you want to get your free time back or simply bill more hours, <strong>Billd</strong> has you covered.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="section">
+            <div class="container">
+                <h2>Support</h2>
+                <p>For support regarding any of our products or services including <strong>Billd</strong>, please reach out to me at <a href="mailto:Chris@SanfordTechLLC.com">Chris@SanfordTechLLC.com</a>.</p>
+            </div>
+        </section>
+
+        <section id="chris" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="bio">
+                    <p>My first memory of expressing a deep fascination with technology was when I was 4 years old. My parents gifted me one of humanity's greatest achievements: the Nintendo 64. Motivated by the desire to play Super Smash Bros., I had to figure out how to connect the console to the TV. With a bit of help from my grandfather, we were able to get the composite RCA AV cable connected at both ends, and Super Smash Bros., in all its glory, was on fully display on the CRT.</p>
+                    <p>The true test, however, came when a television did not have built-in RCA inputs. My desire to smash brothers was far too strong to be stopped by such a roadblock. Discovering the existence of alternative video cables for the N64 that utilized a coaxial cable was the breakthrough I needed. This moment of encountering a problem, assessing the situation, and identifying and trying out a solution is where gears started to turn.</p>
+                    <p>If you're old enough to remember composite cables, perhaps you've had the opportunity to experiment with swapping the white and red audio cables and discover that they were interchangable. That for me was a core moment where I started to question how these cables worked at all, and what else was possible that I hadn't yet discovered.</p>
+                    <p>Similar cases involving a desire to do something that involved technology and the need to understand it in order to get to the other side had presented themselves time and time again in life. Discovering the world of personal computing was like a never-ending feedback loop of fascination and discovery. Thankfully, this cycle has never stopped.</p>
+                    <p>As of 2025, I've been in the tech industry for nearly a decade. I started as a helpdesk support technician at the <a href="https://islipny.gov/" target="_blank">Town of Islip</a>, and was given the freedom to learn, grow, and innovate. This freedom, coupled with my undying desire to improve and optimize my work, eventually lead me to writing code. Discovering the sheer impact and power that the ability of writing code provides was a turning point in my career.</p>
+                    <p>In my personal time outside of work, I love to build applications that not only intrigue me, but ones that I believe others will find value in. Sanford Technologies is the organization through which I can share these applications with the world.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="section">
+            <div class="container">
+                <h2>Connect</h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/christopher-sanford1/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Chris-Sanford" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://x.com/ChrisSanford0" target="_blank" class="social-link">
+                        <i class="fab fa-x-twitter"></i> X (Twitter)
+                    </a>
+                    <a href="mailto:Chris@SanfordTechLLC.com" class="social-link">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Sanford Technologies LLC. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Sanford Technologies LLC. All rights reserved.</p>
+            <p><a href="https://www.dnb.com/business-directory/company-profiles.sanford_technologies_llc.04aa5ca90247ac15c83c5486c6752ddd.html" target="_blank">D&B Business Profile</a></p>
+        </div>
     </footer>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
