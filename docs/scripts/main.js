@@ -3,8 +3,11 @@
 // Update the current year in the footer
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
-// Smooth scrolling for navigation links
+// Smooth scrolling for internal navigation links only
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    // Explicitly exclude mailto links
+    if (anchor.href.includes('mailto:')) return;
+    
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         
@@ -18,6 +21,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 behavior: 'smooth'
             });
         }
+    });
+});
+
+// Ensure mailto links work properly
+document.querySelectorAll('a[href^="mailto:"]').forEach(mailtoLink => {
+    mailtoLink.addEventListener('click', function(e) {
+        // Don't prevent default for mailto links
+        // This is just to ensure they work as expected
+        console.log('Mailto link clicked:', this.href);
     });
 });
 
